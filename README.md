@@ -7,7 +7,7 @@ A Hellish Colorscheme For Vim
 
 ### Installation (Vim Plug)
 ```
-Plug 'wolandark/ColorschemeFromHell'
+Plug 'wolandark/ColorschemeFromHell-Vim'
 ```
 
 ### Setup
