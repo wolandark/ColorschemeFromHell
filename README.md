@@ -1,4 +1,4 @@
-# ColorschmeFromHell
+# ColorschemeFromHell
 A Hellish Colorscheme For Vim
 
 <div>
