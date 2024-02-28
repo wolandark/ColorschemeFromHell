@@ -1,2 +1,25 @@
 # ColorschmeFromHell
 A Hellish Colorschme For Vim
+
+![image](https://github.com/wolandark/ColorschmeFromHell/assets/107309764/d52d613f-6555-4f25-b235-ad219d4418b6)
+
+
+### Setup
+Your `TERM` variable must report `xterm-256color`. Use a true color (termgui) capable terminal. <br>
+Proper settings in `~/.vimrc` are also needed.
+
+``` vim
+set background=dark
+
+if &term =~ '256color'
+	if has('termguicolors')
+		let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+		let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+		set termguicolors
+		set mouse=a
+		colorscheme [colorscheme name]
+	endif
+endif
+```
+
+Made with [vim-rnb](https://github.com/romainl/vim-rnb/tree/master)
