@@ -5,11 +5,6 @@ A Hellish Colorscheme For Vim
 <img src="https://github.com/wolandark/ColorschmeFromHell/assets/107309764/d52d613f-6555-4f25-b235-ad219d4418b6" style="width:50%;">
 </div>
 
-### Installation (Vim Plug)
-```
-Plug 'wolandark/ColorschemeFromHell-Vim'
-```
-
 ### Setup
 Your `TERM` variable must report `xterm-256color`. Use a true color (termgui) capable terminal. <br>
 Proper settings in `~/.vimrc` are also needed.
@@ -23,9 +18,31 @@ if &term =~ '256color'
 		let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 		set termguicolors
 		set mouse=a
-		colorscheme [colorscheme name]
+		colorscheme ColorschemeFromHell
 	endif
 endif
 ```
 
-Made with [vim-rnb](https://github.com/romainl/vim-rnb/tree/master)
+### Installation 
+#### Vim Plug
+```
+Plug 'wolandark/ColorschemeFromHell-Vim'
+```
+#### Lazy
+``` lua
+{
+	"wolandark/ColorschemeFromHell-Vim",
+	-- optional: activate colorscheme
+	config = function()
+		vim.cmd.colorscheme('Mitra')
+	end
+},
+
+```
+
+or use your favorite plugin manager.
+
+### PR & issues are welcomed
+
+Made with the excellent [vim-rnb](https://github.com/romainl/vim-rnb)
+
