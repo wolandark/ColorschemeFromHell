@@ -1,5 +1,5 @@
 # ColorschmeFromHell
-A Hellish Colorschme For Vim
+A Hellish Colorscheme For Vim
 
 <div>
 <img src="https://github.com/wolandark/ColorschmeFromHell/assets/107309764/d52d613f-6555-4f25-b235-ad219d4418b6" style="width:50%;">
