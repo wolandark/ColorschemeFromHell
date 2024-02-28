@@ -1,8 +1,14 @@
 # ColorschmeFromHell
 A Hellish Colorschme For Vim
 
-![image](https://github.com/wolandark/ColorschmeFromHell/assets/107309764/d52d613f-6555-4f25-b235-ad219d4418b6)
+<div>
+<img src="https://github.com/wolandark/ColorschmeFromHell/assets/107309764/d52d613f-6555-4f25-b235-ad219d4418b6" style="width:50%;">
+</div>
 
+### Installation (Vim Plug)
+```
+Plug 'wolandark/ColorschemeFromHell'
+```
 
 ### Setup
 Your `TERM` variable must report `xterm-256color`. Use a true color (termgui) capable terminal. <br>
