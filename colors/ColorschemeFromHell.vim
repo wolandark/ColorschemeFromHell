@@ -2,7 +2,7 @@
 " Author:      wolandark (contact-woland@proton.me)
 " Webpage:     http://wolandark.github.io
 " Description: A Hellish color4 Colorscheme
-" Last Change: 2024-02-28
+" Last Change: 2024-03-07
 
 hi clear
 
@@ -50,17 +50,17 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Folded ctermbg=16 ctermfg=196 cterm=NONE guibg=#050505 guifg=#ff2c2c gui=NONE
     hi WildMenu ctermbg=16 ctermfg=196 cterm=NONE guibg=#050505 guifg=#ff3f3f gui=NONE
     hi SpecialKey ctermbg=16 ctermfg=203 cterm=NONE guibg=#050505 guifg=#ff6060 gui=NONE
-    hi DiffAdd ctermbg=16 ctermfg=203 cterm=NONE guibg=#050505 guifg=#ff6e6e gui=NONE
-    hi DiffChange ctermbg=16 ctermfg=160 cterm=NONE guibg=#050505 guifg=#d80000 gui=NONE
-    hi DiffDelete ctermbg=16 ctermfg=217 cterm=NONE guibg=#050505 guifg=#ffa5a5 gui=NONE
+    hi DiffAdd ctermbg=203 ctermfg=16 cterm=NONE guibg=#ff6060 guifg=#050505 gui=NONE
+    hi DiffChange ctermbg=90 ctermfg=16 cterm=NONE guibg=#8B008B guifg=#050505 gui=NONE
+    hi DiffDelete ctermbg=88 ctermfg=16 cterm=NONE guibg=#8B0000 guifg=#050505 gui=NONE
     hi DiffText ctermbg=16 ctermfg=217 cterm=NONE guibg=#050505 guifg=#FFB6C1 gui=NONE
-    hi IncSearch ctermbg=16 ctermfg=90 cterm=NONE guibg=#050505 guifg=#8B008B gui=NONE
-    hi Search ctermbg=16 ctermfg=201 cterm=NONE guibg=#050505 guifg=#FF00FF gui=NONE
+    hi IncSearch ctermbg=217 ctermfg=16 cterm=NONE guibg=#ffa5a5 guifg=#050505 gui=NONE
+    hi Search ctermbg=217 ctermfg=16 cterm=NONE guibg=#ffa5a5 guifg=#050505 gui=NONE
     hi Directory ctermbg=16 ctermfg=198 cterm=NONE guibg=#050505 guifg=#FF1493 gui=NONE
-    hi MatchParen ctermbg=16 ctermfg=205 cterm=NONE guibg=#050505 guifg=#FF69B4 gui=NONE
-    hi SpellBad ctermbg=16 ctermfg=16 cterm=NONE guibg=#050505 guifg=#333333 gui=NONE
-    hi SpellCap ctermbg=16 ctermfg=88 cterm=NONE guibg=#050505 guifg=#8B0000 gui=NONE
-    hi SpellLocal ctermbg=16 ctermfg=196 cterm=NONE guibg=#050505 guifg=#ee0000 gui=NONE
+    hi MatchParen ctermbg=16 ctermfg=201 cterm=NONE guibg=#050505 guifg=#FF00FF gui=NONE
+    hi SpellBad ctermbg=16 ctermfg=201 cterm=NONE guibg=#050505 guifg=#FF00FF gui=NONE
+    hi SpellCap ctermbg=16 ctermfg=198 cterm=NONE guibg=#050505 guifg=#FF1493 gui=NONE
+    hi SpellLocal ctermbg=16 ctermfg=205 cterm=NONE guibg=#050505 guifg=#FF69B4 gui=NONE
     hi SpellRare ctermbg=16 ctermfg=196 cterm=NONE guibg=#050505 guifg=#ff1717 gui=NONE
     hi ColorColumn ctermbg=16 ctermfg=217 cterm=NONE guibg=#333333 guifg=#ffa5a5 gui=NONE
     hi SignColumn ctermbg=16 ctermfg=203 cterm=NONE guibg=#050505 guifg=#ff6e6e gui=NONE
@@ -117,17 +117,17 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Folded ctermbg=color1 ctermfg=color6 cterm=NONE
     hi WildMenu ctermbg=color1 ctermfg=color7 cterm=NONE
     hi SpecialKey ctermbg=color1 ctermfg=color8 cterm=NONE
-    hi DiffAdd ctermbg=color1 ctermfg=color9 cterm=NONE
-    hi DiffChange ctermbg=color1 ctermfg=color3 cterm=NONE
-    hi DiffDelete ctermbg=color1 ctermfg=color10 cterm=NONE
+    hi DiffAdd ctermbg=color8 ctermfg=color1 cterm=NONE
+    hi DiffChange ctermbg=color14 ctermfg=color1 cterm=NONE
+    hi DiffDelete ctermbg=color2 ctermfg=color1 cterm=NONE
     hi DiffText ctermbg=color1 ctermfg=color13 cterm=NONE
-    hi IncSearch ctermbg=color1 ctermfg=color14 cterm=NONE
-    hi Search ctermbg=color1 ctermfg=color15 cterm=NONE
+    hi IncSearch ctermbg=color10 ctermfg=color1 cterm=NONE
+    hi Search ctermbg=color10 ctermfg=color1 cterm=NONE
     hi Directory ctermbg=color1 ctermfg=color11 cterm=NONE
-    hi MatchParen ctermbg=color1 ctermfg=color12 cterm=NONE
-    hi SpellBad ctermbg=color1 ctermfg=color16 cterm=NONE
-    hi SpellCap ctermbg=color1 ctermfg=color2 cterm=NONE
-    hi SpellLocal ctermbg=color1 ctermfg=color4 cterm=NONE
+    hi MatchParen ctermbg=color1 ctermfg=color15 cterm=NONE
+    hi SpellBad ctermbg=color1 ctermfg=color15 cterm=NONE
+    hi SpellCap ctermbg=color1 ctermfg=color11 cterm=NONE
+    hi SpellLocal ctermbg=color1 ctermfg=color12 cterm=NONE
     hi SpellRare ctermbg=color1 ctermfg=color5 cterm=NONE
     hi ColorColumn ctermbg=color16 ctermfg=color10 cterm=NONE
     hi SignColumn ctermbg=color1 ctermfg=color9 cterm=NONE
