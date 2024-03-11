@@ -17,8 +17,7 @@ if &term =~ '256color'
 		let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 		let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 		set termguicolors
-		set mouse=a
-		colorscheme ColorschemeFromHell
+		colorscheme colorschemefromhell
 	endif
 endif
 ```
@@ -34,7 +33,7 @@ Plug 'wolandark/ColorschemeFromHell-Vim'
 	"wolandark/ColorschemeFromHell-Vim",
 	-- optional: activate colorscheme
 	config = function()
-		vim.cmd.colorscheme('Mitra')
+		vim.cmd.colorscheme('colorschemefromhell')
 	end
 },
 
