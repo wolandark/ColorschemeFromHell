@@ -1,7 +1,7 @@
 " ColorschemeFromHell.vim -- Vim color scheme.
 " Author:      wolandark (contact-woland@proton.me)
 " Webpage:     http://wolandark.github.io
-" Description: A Hellish color Colorscheme
+" Description: A Hellish color4 Colorscheme
 " Last Change: 2024-03-11
 
 hi clear
@@ -30,9 +30,9 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi StatusLine ctermbg=16 ctermfg=196 cterm=NONE guibg=#333333 guifg=#ff3f3f gui=NONE
     hi StatusLineNC ctermbg=16 ctermfg=196 cterm=NONE guibg=#333333 guifg=#ff3f3f gui=NONE
     hi VertSplit ctermbg=NONE ctermfg=196 cterm=NONE guibg=NONE guifg=#ee0000 gui=NONE
-    hi TabLine ctermbg=16 ctermfg=196 cterm=NONE guibg=#333333 guifg=#ff3f3f gui=NONE
+    hi TabLine ctermbg=16 ctermfg=196 cterm=NONE guibg=#333333 guifg=#ff2c2c gui=NONE
     hi TabLineFill ctermbg=16 ctermfg=196 cterm=NONE guibg=#333333 guifg=#ff2c2c gui=NONE
-    hi TabLineSel ctermbg=16 ctermfg=196 cterm=NONE guibg=#333333 guifg=#ff3f3f gui=NONE
+    hi TabLineSel ctermbg=8 ctermfg=16 cterm=NONE guibg=#7b8088 guifg=#050505 gui=NONE
     hi Title ctermbg=NONE ctermfg=203 cterm=NONE guibg=NONE guifg=#ff6060 gui=NONE
     hi CursorLine ctermbg=16 ctermfg=NONE cterm=NONE guibg=#333333 guifg=NONE gui=NONE
     hi CursorLineNr ctermbg=NONE ctermfg=160 cterm=NONE guibg=NONE guifg=#d80000 gui=NONE
@@ -97,9 +97,9 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi StatusLine ctermbg=color16 ctermfg=color7 cterm=NONE
     hi StatusLineNC ctermbg=color16 ctermfg=color7 cterm=NONE
     hi VertSplit ctermbg=NONE ctermfg=color4 cterm=NONE
-    hi TabLine ctermbg=color16 ctermfg=color7 cterm=NONE
+    hi TabLine ctermbg=color16 ctermfg=color6 cterm=NONE
     hi TabLineFill ctermbg=color16 ctermfg=color6 cterm=NONE
-    hi TabLineSel ctermbg=color16 ctermfg=color7 cterm=NONE
+    hi TabLineSel ctermbg=color17 ctermfg=color1 cterm=NONE
     hi Title ctermbg=NONE ctermfg=color8 cterm=NONE
     hi CursorLine ctermbg=color16 ctermfg=NONE cterm=NONE
     hi CursorLineNr ctermbg=NONE ctermfg=color3 cterm=NONE
