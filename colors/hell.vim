@@ -1,7 +1,7 @@
 " ColorschemeFromHell.vim -- Vim color scheme.
 " Author:      wolandark (contact-woland@proton.me)
 " Webpage:     http://wolandark.github.io
-" Description: A Hellish color4 Colorscheme
+" Description: A Hellish color Colorscheme
 " Last Change: 2024-03-11
 
 hi clear
